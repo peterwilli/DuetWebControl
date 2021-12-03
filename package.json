@@ -10,7 +10,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "report": "vue-cli-service build --report",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-plugin": "node scripts/build-plugin.js"
   },
   "dependencies": {
     "@babylonjs/core": "^4.2.0",
